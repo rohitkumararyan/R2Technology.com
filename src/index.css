@@ -1,13 +1,141 @@
-body {
+@import url("http://fonts.googleapis.com2?=family=Muli$display=swap");
+*{
   margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
-    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
-    sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Muli",sans-serif;
+}
+.navbar{
+  background-color: rgb(219, 219, 231);
+}
+.navbar-brand{
+  font-size: 1.9rem !important;
+  color: darkslategray;
+}
+.navbar a{
+  font-size: 1.3rem !important;
+  color: grey;
+}
+.navbar a:hover{
+  color:rgb(8, 199, 116)
+}
+.navbar-nav{
+  margin-left: auto;
+  gap:15px;
+}
+.logo{
+  width: 52px;
+  height: 52px;
+  border-radius: 15px;
+  background-color: rgb(55, 20, 181);
+  color:rgb(16, 106, 224)
+  
+}
+.menu_active{
+  font-weight: bold;
+  border-bottom: 1px  solid #5b5b5e;
+}
+@media_active {
+  .navbar-brand{
+    font-size: 1.5rem !important
+  }
+  .menu_active {
+    font-weight:bold;
+
+  }
 }
 
-code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
-    monospace;
+#header{
+  width: 100%;
+  height: 90vh;
+  margin-top: 30px;
+}
+.head{
+  margin-top: 10px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: beige;
+}
+#header h1{
+  margin: 0 0 10px 0;
+  font-size: 45px;
+  font-weight: 70px;
+  color: black;
+ 
+}
+#header .brand-name{
+   color: #3498db;
+}
+#header h2{
+  color: #6c6e6c;
+  font-size: 25px;
+  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+#header .btn-get-satarted{
+  
+   font-weight: 505;
+   font-size: 18px;
+   letter-spacing: 1px;
+   padding: 10px 30px;
+   border-radius: 50px;
+   transition: 0.5s;
+   color: #3498db;
+   border:  2px solid #3498db;
+  text-decoration:none;
+}
+#header .btn-get-satarted:hover{
+   color:#fff;
+
+   background-color:#3498db;
+  cursor: pointer;
+}
+#header-img{
+  text-align: right;
+  border: 3px solid rgb(97, 29, 29);
+  border-radius: 15px;
+
+}
+#header .animated{
+  animation: up-down 2s ease-in-out infinite alternate-reverse both;
+}
+/* responsibe for web*/
+@media screen and (max-width: 768px) {
+  #header {
+    height: auto;
+    padding: 20px;
+  }
+
+  #header h1 {
+    font-size: 35px;
+  }
+
+  #header h2 {
+    font-size: 20px;
+  }
+
+  #header .btn-get-started {
+    font-size: 16px;
+    padding: 8px 20px;
+  }
+}
+
+
+@-webkit-keyframes up-down{
+  0%{
+    transform: translateY(10px);
+
+  }
+  100%{
+    transform: translateX(-10px);
+  }  
+}
+@keyframes up-down{
+  0%{
+    transform: translateY(10px);
+
+  }
+  100%{
+    transform: translateX(-10px);
+  }
 }

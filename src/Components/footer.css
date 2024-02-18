@@ -1,0 +1,44 @@
+footer {
+    margin-top: 7px;
+    width: 100%;
+    background-color: #333;
+    color: #fff;
+    padding-left: 10px 0;
+    text-align: center;
+    justify-content: center;
+    gap:40px;
+}
+
+.footer-content {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.footer-logo{
+    width: 100px; /* Adjust size as needed */
+    height: auto;
+
+
+}
+
+.social-media a {
+    color: #fff;
+    text-decoration: none;
+    font-size: 24px;
+    margin: 0 10px;
+}
+
+.footer-text p {
+    margin: 0;
+}
+@media screen and (max-width: 768px) {
+    .footer-content {
+        flex-direction: column;
+    }
+
+    .footer-logo {
+        margin-right: 0; /* Remove margin for smaller screens */
+        margin-bottom: 10px; /* Add margin at bottom for spacing */
+    }
+}

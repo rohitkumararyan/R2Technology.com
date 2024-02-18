@@ -1,0 +1,236 @@
+.container-f{
+    margin-top: 100px;
+    width: 100%;
+    height: 120vh;
+    background-color:#ff000080;
+    background-image: url('..//Image/p2.png')
+    
+}
+.Container-fluid{
+    margin-top: 13px;
+    width:100%;
+    height:50vh;
+    display: flex;
+    align-items: center;
+    justify-content: center
+    
+
+
+}
+.container{
+    width:100%;
+    height:100vh;
+    background-image: url('..//Image/v1.png');
+    display: flex;
+    background-color: #fff;
+    align-items: center;
+    justify-content: center;
+}
+.text4{
+    width: 40%;
+    color:#fff;
+    font-size: 30px;
+}
+.form-label{
+    display: flex;
+    align-items: center;
+    margin: auto;
+    width: 400px;
+    height: 60px;
+    border-radius: 9px;
+    border: 2px solid rgb(128, 125, 125);
+    background:#fff;
+    margin-top: 10px;
+    outline: none;
+}
+.form-control{
+    display: flex;
+    align-items: center;
+    margin: auto;
+    width: 400px;
+    height: 100px;
+    border-radius: 9px;
+    border: 2px solid rgb(7, 2, 2);
+    background:#fff;
+    margin-top: 10px;
+}
+@media only screen and (max-width: 768px) {
+    .container {
+        padding: 20px; /* Add padding for smaller screens */
+    }
+
+    .text4 {
+        width: 80%; /* Adjust width for smaller screens */
+        font-size: 24px; /* Adjust font size for smaller screens */
+    }
+
+    .form-label,
+    .form-control {
+        width: 90%; /* Adjust width for smaller screens */
+    }
+}
+.Container{
+    width: 10px;
+    display: flex;
+    flex-direction: column;
+    margin: auto;
+    margin-top: 20px;
+    padding-bottom: 30px;
+    background-color:#fbfcfa;
+    
+    border-radius: 6%;
+    border: 2px solid rgb(103, 95, 95);
+}
+.icon {
+    width: 35px;
+    height: 30px;
+    gap:25px;
+}
+
+.underline {
+    width: 82px;
+    height: 5px;
+    background: #535355;
+    border-radius: 9px;
+}
+
+.text {
+    color:rgb(20, 168, 91);
+    font-size: 27px;
+    font-weight: 700;
+}
+
+.header {
+    margin-top: 11px;
+    display: flex;
+    margin-top: 30px;
+    flex-direction: column;
+    gap: 9px;
+    align-items: center;
+    width: 100%;
+
+}
+
+.inputs {
+    padding-bottom: 10px;
+    margin: 10px;
+    margin-top: 11px;
+    display: flex;
+    flex-direction: column;
+    gap: 25px;
+}
+
+.input {
+    display: flex;
+    align-items: center;
+    margin: auto;
+    width: 400px;
+    height: 60px;
+    border-radius: 9px;
+    border: 2px solid rgb(103, 95, 95);
+    background: #e6e6eb;
+    outline: none;
+}
+
+.input img {
+    margin: 0px 30px;
+    outline: none;
+}
+
+.input input {
+    height: 30px;
+    width: 250px;
+    font-size: 20px;
+    border: none;
+    outline: none;
+    color: #191515;
+    outline: none;
+
+}
+.txt{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 45px;
+    color: rgb(16, 106, 224);
+}  
+
+
+.forgget-password {
+    padding-left: 200px;
+    margin-top: 27px;
+    color: #fd4545;
+    font-size: 19px;
+}
+
+.forgget-password span {
+    color: #0b3d8e;
+    cursor: pointer;
+}
+
+.submit_container {
+    display: flex;
+    gap: 30px;
+    margin: 60px auto;
+}
+
+.submit {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 220px;
+    height: 59px;
+    font-weight: 700;
+    cursor: pointer;
+    border-radius: 50px;
+    font-size: 19px;
+    color: rgb(236, 243, 248);
+    background-color: rgb(16, 106, 224);
+}
+
+.gray {
+    background-color: #c7c7d3;
+    color: #000;
+}
+
+.data {
+    margin-top: 15px;
+    background-color: rgb(222, 214, 214);
+    color: #58565e;
+    font-size: 20px;
+}
+.text1{
+    color: #460657;
+    font-size: 20px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+/* For smaller screens */
+@media only screen and (max-width: 600px) {
+    .Container {
+        width: 80%; /* Adjust as needed */
+    }
+    .inputs {
+        width: 90%; /* Adjust as needed */
+    }
+    .input {
+        width: 100%; /* Adjust as needed */
+    }
+    .txt {
+        padding-left: 0; /* Reset padding */
+        text-align: center; /* Center text */
+    }
+    .forgget-password {
+        padding-left: 0; /* Reset padding */
+        text-align: center; /* Center text */
+    }
+    .submit{
+       width: 120px
+    }
+}
+
+/* For larger screens */
+@media only screen and (min-width: 1200px) {
+    .Container {
+        width: 800px; /* Adjust as needed */
+    }
+}
