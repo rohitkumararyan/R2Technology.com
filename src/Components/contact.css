@@ -138,6 +138,7 @@
 }
 
 .input input {
+    margin-top: 10px;
     height: 30px;
     width: 250px;
     font-size: 20px;

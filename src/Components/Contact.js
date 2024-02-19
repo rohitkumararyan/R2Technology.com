@@ -32,7 +32,7 @@ const Contact = () => {
 
       <div className='container contact_div'>
          <div className='text4'>
-        <p>WriteIt Solutions is a dynamic software company specializing in creating innovative writing and editing tools 
+        <p>R2 Technology Solutions is a dynamic software company specializing in creating innovative writing and editing tools 
           for professionals, students, and individuals. Our mission is to empower users to express themselves effectively and efficiently through technology.</p>
           </div>
         <div className='row'>

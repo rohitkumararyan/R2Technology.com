@@ -32,7 +32,7 @@ const Revieww = ({rating}) => {
         {reviews.map((review, index) => (
           <div key={index} className="review">
             <p>{review.text}</p>
-            <StarRatingComponent className="star"
+            <StarRatingComponent 
               name={`rating-${index}`}
               starCount={4}
               value={review.rating}
